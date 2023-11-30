@@ -10,7 +10,7 @@ RSA (Rivest–Shamir–Adleman) is a public-key encryption algorithm that uses a
 
 ## Clone this repository:
 ```
-git clone https://github.com/aagbotemi/prime-number-generator.git
+git clone https://github.com/aagbotemi/rsa-cryptosystem
 ```
 
 Get into the project directory
