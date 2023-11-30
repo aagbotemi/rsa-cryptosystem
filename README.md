@@ -1,12 +1,12 @@
-# RSA-Crptosystem
-RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem. It works through the following steps: 
+# RSA-Cryptosystem
+RSA (Rivest–Shamir–Adleman) is a public-key encryption algorithm that uses an asymmetric encryption algorithm to encrypt data. Asymmetric encryption uses a key pair that is mathematically linked to encrypt and decrypt data. It works through the following steps: 
 
-- 1. find public modulus, n = p * q
-- 2. find euler totient function, Φ(n) = (p-1)(q-1)
-- 3. select e, public verification exponent such that gcd(e, Φ(n)) = 1, where 1 < e < Φ(n)
-- 4. find d, private signing key using modular inverse d*e=1(mod Φ(n))
-- 5. Encryption, c=m^e mod n, where m is the plain text, e is the public key, n
-- 6. Decryption, m=c^d mod n, where m is the plain text
+- find public modulus, n = p * q
+- find euler totient function, Φ(n) = (p-1)(q-1)
+- select e, public verification exponent such that gcd(e, Φ(n)) = 1, where 1 < e < Φ(n)
+- find d, private signing key using modular inverse d*e=1(mod Φ(n))
+- Encryption, c=m^e mod n, where m is the plain text, e is the public key, n
+- Decryption, m=c^d mod n, where m is the plain text
 
 ## Clone this repository:
 ```
